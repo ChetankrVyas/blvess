@@ -20,7 +20,7 @@ function Nav_bar() {
                     <Row>
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto nav-list">
-                                <Nav.Link href="/home"><span className='nav-item ulstyle'>Home</span></Nav.Link>
+                                <Nav.Link href="/"><span className='nav-item ulstyle'>Home</span></Nav.Link>
                                 <Nav.Link href="/mission"><span className='nav-item ulstyle'>Missions</span></Nav.Link>
                                 <Nav.Link href="/contract"><span className='nav-item ulstyle'>Contracts</span></Nav.Link>
                                 <Nav.Link href="/activities"><span className='nav-item ulstyle'>Activities</span></Nav.Link>

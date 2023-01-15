@@ -17,6 +17,7 @@ a {
 }
 
 .topic {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
   font-size: 40px;
 }
@@ -111,11 +112,13 @@ a {
   width: 40%;
   margin: auto;
   display: flex;
+  padding: 30px;
+  flex-wrap: wrap;
   border-radius: 13px;
   border: 2px solid black;
 }
 .link{
-  margin: 30px;
+  margin: auto 20px;
 }
 .p1{
   height: 600px;

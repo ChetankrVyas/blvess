@@ -1,11 +1,12 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap';
-
+import Image from 'next/image';
+import Chart from '../assets/chart.png'
 const Comparison = () => {
     return (
-        <div style={{margin:'90px',transform:'scale(1.3)'}}>
-            <h3 style={{textAlign:'center',marginBottom:'30px'}}>YEAR-WISE COMPARISON OF PRODUCTION</h3>
-            <div style={{ margin: 'auto', width: '50%' }}>
+        <div style={{marginTop:'100px'}}>
+            <h2 style={{textAlign:'center',marginBottom:'100px'}}>YEAR-WISE COMPARISON OF PRODUCTION</h2>
+            <div style={{ margin: 'auto', width: '50%',transform:'scale(1.4)'}}>
                 <Row>
                     <Col className='com1'>Year</Col>
                     <Col className='com2'>FARMERS (Seed Growers and Demos)</Col>
@@ -52,6 +53,7 @@ const Comparison = () => {
                     <Col className='com5'>130</Col>
                 </Row>
             </div>
+            <div style={{marginTop:'80px'}}><Image src={Chart} style={{display:'block',margin:'auto',width:'70%'}}/></div>
         </div>
     )
 }
