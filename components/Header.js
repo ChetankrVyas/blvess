@@ -7,7 +7,7 @@ import Lgo from '../assets/logo.png'
 const Header = () => {
     return (
         <div className='header'>
-            <Image src={Lgo} alt='photo' />
+            <Image src={Lgo} alt='photo' style={{borderRadius:'50%'}} />
             <p>
                 II.	 VISION
                 To build a prosperous and sustainable agriculture sector, through the participation and capacity building of farmers, thereby enabling them to enhance productivity and cost-effectiveness and utilize sustainable resources by increasing the quality and quantity of crop production
