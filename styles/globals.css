@@ -60,6 +60,7 @@ a {
   font-size: 30px;
   display: flex;
   margin: auto;
+  margin-bottom: 12px;
   justify-content: center;
 }
 

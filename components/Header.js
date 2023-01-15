@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-import Lgo from '../assets/logo.png'
+import Lgo from '../assets/logo1.png'
 
 
 const Header = () => {

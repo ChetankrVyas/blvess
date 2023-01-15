@@ -2,17 +2,17 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Dropdown, Row, Col } from 'react-bootstrap';
-import Lgo from '../assets/logo.png'
+import Lgo from '../assets/logo1.png'
 import { FaLinkedin, FaInstagram, FaFacebook, } from "react-icons/fa"
 import { NavDropdown } from 'react-bootstrap';
 import Image from 'next/image';
 
 function Nav_bar() {
     return (
-        <Navbar bg="green" variant='light' expand="lg" style={{ padding: '4px', backgroundColor: 'white',borderBottom:'4px solid black' }}>
+        <Navbar bg="green" variant='light' expand="lg" style={{ padding: '4px', }}>
             <Container>
-                <Navbar.Brand style={{ width: '10%', marginRight: '10%' }} href="/"><Image src={Lgo} height={150} style={{ borderRadius: '50%', margin: 'auto', border:'2px solid black' }} alt='' /></Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Brand style={{ width: '10%', marginRight: '10%' }} href="/"><Image src={Lgo} height={150} style={{ borderRadius: '50%', margin: 'auto'}} alt='' /></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Col>
                     <Row>
                         <div className='topic'>BHARATIYA LOK VIKAS EVAM SHODH SANSTHAN</div>
@@ -33,6 +33,7 @@ function Nav_bar() {
                                 <a href=''><FaLinkedin className="social-icons"></FaLinkedin></a>
                             </div>
                         </Navbar.Collapse>
+                            <div style={{background:'black',height:'2px',width:'75%'}}></div>
                     </Row>
                 </Col>
             </Container>
