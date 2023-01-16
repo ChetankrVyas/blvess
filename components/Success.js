@@ -12,9 +12,9 @@ const Success = () => {
   return (
     <div style={{ marginTop: '140px' }}>
       <h1 style={{ textAlign: 'center', margin: '30px' }}>Success Story</h1>
-      <Row style={{ padding: '8px', margin: '2%', borderRadius: '10px', padding: '2%', border: '3px solid white', display:'flex',flexWrap:'wrap' }}>
+      <Row style={{ padding: '8px', margin: '2%', borderRadius: '10px', padding: '2%', border: '3px solid white', display: 'flex', flexWrap: 'wrap' }}>
         <Col>
-          <div style={{ width: '85%', margin: 'auto',display:'block' }}>The leading progressive farmers during the year 2019-20 for biofortified high zinc wheat seed variety BHU-25 are: -<br />
+          <div style={{ width: '85%', margin: 'auto', display: 'block' }}>The leading progressive farmers during the year 2019-20 for biofortified high zinc wheat seed variety BHU-25 are: -<br />
             I.	Shri Ramanuj Upadhyay, Area-14 Acre, Village-Upadhyay Sagar, Block-Ramgarh, District-Kaimur (Bihar).<br />
             II.	Shri Baban Upadhyay, Area-14 Acre, village-Upadhyay Sagar, block-Ramgarh, district-Kaimur (Bihar)<br />
             The leading progressive farmers during the year 2019-20 for biofortified high zinc wheat seed variety BHU-31 are: -<br />
@@ -24,7 +24,7 @@ const Success = () => {
           </div>
         </Col>
         <Col>
-          <div style={{display:'block'}}>
+          <div style={{ display: 'block' }}>
             <Carousel>
               <Carousel.Item interval={1000}>
                 <Image
@@ -86,7 +86,7 @@ const Success = () => {
                   alt="Third slide"
                 />
                 <Carousel.Caption>
-                  <h3>Third slide label</h3>
+                  <h3></h3>
                   <p>
                     Praesent commodo cursus magna, vel scelerisque nisl consectetur.
                   </p>
@@ -95,9 +95,11 @@ const Success = () => {
             </Carousel>
           </div>
         </Col>
+      <div style={{padding:'20px 10%',textAlign:'justify',fontSize:'20px',fontFamily:'sans-serif'}}>
+         Special mention is to be made of Shri Baban Upadhyay and Shri Ramanuj Upadhyay, two progressive farmers in Kaimur district of Bihar, who are involved in the cultivation of BHU-25 varieties of wheat on approximately 28 Acres of land.
+        Shri Dev Mani Pande, Ghazipur district Uttar Pradesh, Shri Munna Pathak, Buxar district Bihar and Shri Karan Singh, Kaimur district Bihar cultivated BHU-31 variety of wheat on approximately 70 Acre of land and were of the opinion that BHU-31 has wide leaves, which helps in better photosynthesis and the cattle eats them very fondly.
+      </div>
       </Row>
-      <div> Special mention is to be made of Shri Baban Upadhyay and Shri Ramanuj Upadhyay, two progressive farmers in Kaimur district of Bihar, who are involved in the cultivation of BHU-25 varieties of wheat on approximately 28 Acres of land.
-        Shri Dev Mani Pande, Ghazipur district Uttar Pradesh, Shri Munna Pathak, Buxar district Bihar and Shri Karan Singh, Kaimur district Bihar cultivated BHU-31 variety of wheat on approximately 70 Acre of land and were of the opinion that BHU-31 has wide leaves, which helps in better photosynthesis and the cattle eats them very fondly.</div>
     </div>
   )
 }

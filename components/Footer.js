@@ -17,7 +17,7 @@ const Footer = () => {
                 <Link href='/contract' className='link'>Contracts</Link>
             </div>
             <div style={{width:'45%',background:'rgb(181, 176, 176)',height:'2px',margin:'7px auto'}}></div>
-            <p style={{width:'45%',margin:'auto',textAlign:'center'}}>To build a prosperous and sustainable agriculture sector, through the participation and capacity building of farmers, thereby enabling them to enhance productivity and cost-effectiveness and utilize sustainable resources by increasing the quality and quantity of crop production   <br/>@2023BLVESS</p>
+            <p style={{width:'85%',margin:'auto',textAlign:'center'}}>To build a prosperous and sustainable agriculture sector, through the participation and capacity building of farmers, thereby enabling them to enhance productivity and cost-effectiveness and utilize sustainable resources by increasing the quality and quantity of crop production   <br/>@2023BLVESS</p>
         </footer>
     )
 }
