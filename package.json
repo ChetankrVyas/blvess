@@ -23,6 +23,7 @@
     "react-icons": "^4.7.1",
     "react-slick": "^0.29.0",
     "react-slideshow-image": "^4.1.1",
+    "sharp": "^0.31.3",
     "slick-carousel": "^1.8.1",
     "slick-slider": "^1.8.2",
     "swc": "^1.0.11",
