@@ -20,8 +20,8 @@ export default function Home() {
         </Head>
         <Navbar />
         <Header />
-        <Comparison/>
         <Success/>
+        <Comparison/>
         <Footer />
       </div>
     </>

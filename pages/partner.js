@@ -14,7 +14,7 @@ const partner = () => {
       </Head>
       <Navbar />
       <h1 style={{ textAlign: 'center' }}>Our Partners</h1>
-      <div style={{ padding: '20px 10%',textAlign:'center' }}>
+      <div style={{ padding: '20px 10%',textAlign:'justify',fontSize:'20px',fontFamily:'sans-serif' }}>
         Bharatiya Lok Vikas Evam Shodh Sansthan (BLVESS) is associated with the following government and private organizations<br/>
         •	Banaras Hindu University (BHU)<br/>
         •	Indian Institute of Technology (IIT), BHU – Gramin Gyan Kendra (GGK) Project<br/>

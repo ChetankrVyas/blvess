@@ -65,78 +65,151 @@ a {
   justify-content: center;
 }
 
+.lin {
+  color: rgb(24, 129, 167);
+}
+
 .social-icons {
   margin: auto 10px;
 }
 
-.com1 {
-  background-color: orange;
-  border: 2px solid black;
+.fac {
+  color: rgb(76, 76, 99);
 }
 
-.com2 {
-  background-color: orange;
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
-}
-
-.com3 {
-  background-color: orange;
-  border-bottom: 2px solid black;
-}
-
-.com4 {
-  background-color: rgb(37, 205, 37);
-  border-right: 2px solid black;
-  border-left: 2px solid black;
-}
-
-.com5 {
-  background-color: rgb(37, 205, 37);
-  border: 2px solid black;
-}
-
-.com6 {
-  background-color: rgb(37, 205, 37);
-  border-bottom: 2px solid black;
-  border-top: 2px solid black;
+.ins {
+  color: rgb(205, 72, 205);
 }
 
 .footer {
-  padding: 40px;
-  background-color: rgb(185, 255, 209);
+  padding: 2% 20%;
+  background-color: rgb(190, 229, 100);
 }
 
 .links {
   justify-content: center;
-  width: 40%;
+  padding: 5%;
   margin: auto;
   display: flex;
-  padding: 30px;
   flex-wrap: wrap;
   border-radius: 13px;
   border: 2px solid black;
 }
-.link{
+
+.link {
   margin: auto 20px;
 }
-.p1{
+
+.p1 {
   height: 600px;
   overflow-y: hidden;
   width: 600px;
 }
+
 .navbar-light .navbar-toggler-icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin: 4px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 4px;
 }
-.carousel-control-next-icon, .carousel-control-prev-icon {
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   height: 20px;
   width: 20px;
 }
-.carousel-control-next,.carousel-control-prev{
-  height: 30px;
+
+.carousel-control-next,
+.carousel-control-prev {
   width: 30px;
   margin: auto;
+}
+
+.row1 {
+  background-color: rgb(190, 229, 113);
+  padding: 8px;
+  margin: 2%;
+  border-radius: 10px;
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Text-Image {
+  border: 3px solid white;
+  border-radius: 15px;
+  padding: 2%;
+  text-align: justify;
+}
+
+.imgfluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.contract {
+  border: 2px solid white;
+  margin: 20px;
+  padding: 14px;
+  font-family: Helvetica;
+  border-radius: 10px;
+}
+
+.activities {
+  border: 2px solid green;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 40px;
+}
+
+hr.acthr {
+  border-top: 2px solid rgb(95, 3, 3);
+}
+
+.about1 {
+  text-align: justify;
+  margin: 30px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-fluid {
+  margin: 20px auto;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.missions {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 1375px) {
+  .Text-Image {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 472px) {
+  .topic {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 1375px) {
+  .navbar-light .navbar-toggler {
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (max-width: 416px) {
+  .headr {
+    width: 350px;
+    height: 350px;
+  }
 }

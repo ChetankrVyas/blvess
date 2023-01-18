@@ -28,12 +28,12 @@ function Nav_bar() {
                                 <Nav.Link href="/about"><span className='nav-item ulstyle'>About</span></Nav.Link>
                             </Nav>
                             <div className='social'>
-                                <a href=''><FaInstagram className="social-icons"></FaInstagram></a>
-                                <a href=''><FaFacebook className="social-icons"></FaFacebook></a>
-                                <a href=''><FaLinkedin className="social-icons"></FaLinkedin></a>
+                                <a href=''><FaInstagram className="social-icons ins"></FaInstagram></a>
+                                <a href=''><FaFacebook className="social-icons fac"></FaFacebook></a>
+                                <a href=''><FaLinkedin className="social-icons lin"></FaLinkedin></a>
                             </div>
                         </Navbar.Collapse>
-                            <div style={{background:'black',height:'2px',width:'75%'}}></div>
+                            <hr style={{color:'black',height:'2px'}}></hr>
                     </Row>
                 </Col>
             </Container>
