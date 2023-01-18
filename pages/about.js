@@ -1,7 +1,9 @@
 import React from 'react'
 import Head from 'next/head'
+import { FaLinkedin, FaInstagram, FaFacebook, } from "react-icons/fa"
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 const about = () => {
     return (
@@ -35,6 +37,11 @@ const about = () => {
                 Varanasi – 221001, India<br/>
                 Phone: +91 8299513350<br/>
                 Email: blvess@gmail.com<br/>
+                <div className='social1'>
+                <a href=''><FaInstagram className="social-icons ins"></FaInstagram></a>
+                <a href=''><FaFacebook className="social-icons fac"></FaFacebook></a>
+                <a href=''><FaLinkedin className="social-icons lin"></FaLinkedin></a>
+            </div>
             </div>
             <Footer />
         </div>

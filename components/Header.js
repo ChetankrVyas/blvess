@@ -11,7 +11,7 @@ const Header = () => {
             <Row >
                 <Col style={{verticalAlign:'middle'}}>
                     <div >
-                        <Image src={Lgo} alt='photo' height={400} width={400} style={{ borderRadius: '50%', margin: 'auto', display: 'block' }} className='headr'/>
+                        <Image src={Lgo} alt='photo' height={400} style={{ borderRadius: '20px', boxShadow:'5px 5px 10px gray', margin: 'auto', display: 'block' }} className='headr'/>
                     </div>
                 </Col>
                 <Col>
@@ -31,7 +31,7 @@ const Header = () => {
                                        a prosperous and sustainable agriculture sector, through the participation and capacity building of farmers, thereby enabling them to enhance productivity and cost-effectiveness and utilize sustainable resources by increasing the quality and quantity of crop production.
                                     </p>
                                     <button className={styles.button1}>
-                                        <a href='/services'> Explore Services </a>
+                                        <a href='/services'> Contact Us </a>
                                     </button>
                                     {/* </div> */}
                                 </main>
